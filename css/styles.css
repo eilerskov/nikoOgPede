@@ -63,7 +63,7 @@ button:focus {
 }
 
 .Overskrift{
-    font-size:26px;
+    font-size:5vw;
     font-family: 'Be Vietnam';
     font-weight:lighter;
 }
@@ -72,13 +72,18 @@ button:focus {
     text-align:center;
     font-family:'Be Vietnam';
     font-weight:300;
-    font-size:15px;
+    font-size:4vw;
 }
 
 .ActionButton{
     text-decoration:none;
     background-color:#C19765;
     color:white;
+    padding:1% 0 1% 0;
+}
+
+.ActionButton:hover{
+    background-color:#A88154;
 }
 
 #Tilbud .Tekst{
@@ -103,7 +108,10 @@ button:focus {
     justify-self:center;
     width:60%;
     font-family:'Be Vietnam';
-    font-size:22px;
+    font-size:6vw;
+    grid-row:1;
+    align-self:end;
+    margin-bottom:30%;
 }
 
 #Tilbud img{

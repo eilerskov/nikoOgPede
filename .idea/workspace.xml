@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b01149-94a3-4b6e-824d-6450274f688d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gcw8WoBVujYEa8dba8tcHum1gg" />
@@ -28,6 +34,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598427029351</updated>
-      <workItem from="1598427030547" duration="132000" />
+      <workItem from="1598427030547" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1598427059286</created>
@@ -48,7 +60,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598427059287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Alle filer fra gamle projekt rykket over til ny projekt mappe">
+      <created>1598428006881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598428006881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix for footer">
+      <created>1598428036273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598428036273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,16 +82,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello" />
+    <MESSAGE value="Alle filer fra gamle projekt rykket over til ny projekt mappe" />
+    <MESSAGE value="fix for footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix for footer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="39" key="CommitChangelistDialog2" timestamp="1598427058794">
+    <state x="331" y="39" key="CommitChangelistDialog2" timestamp="1598428036022">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="331" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1598427058794" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1598427062583">
+    <state x="331" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1598428036022" />
+    <state x="591" y="337" key="Github.ShareDialog" timestamp="1598428536339">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1598427062583" />
+    <state x="591" y="337" key="Github.ShareDialog/0.23.1440.828@0.23.1440.828" timestamp="1598428536339" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1598428653845">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1598428653845" />
   </component>
 </project>
