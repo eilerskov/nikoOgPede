@@ -35,7 +35,7 @@ img {
 }
 
 body {
-    background-color: #e0e0e0;
+    background-color:#ffffff;
     overscroll-behavior: contain;
 }
 
@@ -54,6 +54,62 @@ button:focus {
 .GridBody {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+#Tilbud{
+    grid-colum:1/-1;
+    display:grid;
+    grid-template-columns:1fr 0.7fr;
+}
+
+.Overskrift{
+    font-size:26px;
+    font-family: 'Be Vietnam';
+    font-weight:lighter;
+}
+
+.Tekst{
+    text-align:center;
+    font-family:'Be Vietnam';
+    font-weight:300;
+    font-size:15px;
+}
+
+.ActionButton{
+    text-decoration:none;
+    background-color:#C19765;
+    color:white;
+}
+
+#Tilbud .Tekst{
+    grid-column:1/2;
+    grid-row:1;
+    align-self:center;
+    margin-bottom:30%;
+    width:90%;
+    justify-self:center;
+}
+
+#Tilbud .Overskrift{
+    text-align:center;
+    padding-top:15%;
+    grid-column:1/2;
+    grid-row:1;
+}
+
+#Tilbud .ActionButton{
+    grid-column:1/2;
+    text-align:center;
+    justify-self:center;
+    width:60%;
+    font-family:'Be Vietnam';
+    font-size:22px;
+}
+
+#Tilbud img{
+    width:60%;
+    grid-column:2/3;
+    justify-self:center;
 }
 
 @media screen and (min-width: 600px) {

@@ -1,11 +1,19 @@
 #Burger {
     display: flex;
-    flex-direction: column;
     place-content: center;
-    justify-self: end;
-    margin-right: 2%;
-    height: 50px;
-    width: 50px;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width: 100%;
+    padding:22px 5% 22px 5%;
+    background-color: #F8F8F8;
+}
+
+#Burger a:nth-child(1){
+    width:32%;
+}
+
+#Burger img:nth-child(2){
+    width:13%;
 }
 
 #BurgerContent {
